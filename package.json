@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "dev": "wrangler dev src/index.ts",
+    "dev": "wrangler dev --remote src/index.ts",
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
+    "geolib": "^3.3.4",
     "hono": "^3.7.2"
   },
   "devDependencies": {

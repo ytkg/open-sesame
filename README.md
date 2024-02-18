@@ -1,8 +1,14 @@
-```
-npm install
-npm run dev
-```
+# open-sesame
+
+## Development
 
 ```
-npm run deploy
+bun install
+bun run dev
+```
+
+## Deployment
+
+```
+bun run deploy
 ```
